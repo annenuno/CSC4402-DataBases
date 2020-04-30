@@ -1,10 +1,11 @@
 # CSC4402-DataBases
 Final Project
+
 Group Members:
 
-Marcellina Kazigati
-Ana Nuno
-Adwaita Ramachandran
+Marcellina Kazigati,
+Ana Nuno,
+Adwaita Ramachandran.
 
 GoogleDoc Project Folder:
 
