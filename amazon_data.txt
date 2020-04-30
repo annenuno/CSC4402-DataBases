@@ -1,0 +1,114 @@
+/* Amazon Online Store data insertions */
+
+/* Clear all tables before inserting */
+delete from Item;
+delete from Vendor;
+delete from Rep;
+delete from Driver;
+delete from Inventory;
+
+/* Insert into item table */
+insert into Item values ('I001', 'Fender Acoustic Guitar', 199.99);
+insert into Item values ('I002', 'Canon PowerShot SX420 Digital Camera', 199.00);
+insert into Item values ('I003', 'Noodles', 39.99);
+insert into Item values ('I004', 'Black Tourmaline Necklace', 25.49);
+insert into Item values ('I005', 'Avocado', 1.99);
+insert into Item values ('I006', 'Jenga Classic Game', 16.65);
+insert into Item values ('I007', 'Funko Pop! Movies: John Wick - John in Black Suit with Dog Buddy', 14.33);
+insert into Item values ('I008', 'Noise Cancelling Headphones', 59.99);
+insert into Item values ('I009', 'Modern Indoor Plant Holder', 39.95);
+insert into Item values ('I010', '365 Everyday Value Prenatal Gummies', 19.99);
+insert into Item values ('I011', 'Lace Wedding Dress', 156.89);
+insert into Item values ('I012', 'USB Microphone', 58.99);
+insert into Item values ('I013', 'Barbican Grape Flavored Drink', 34.99);
+insert into Item values ('I014', 'Baking Vanilla Extract', 11.33);
+insert into Item values ('I015', 'Stranger in the Alps Vinyl', 12.89);
+
+
+
+/* Insert into vendor table */
+insert into Vendor values ('V001', 'Guitar Center', '2259270158', 'Baton Rouge');
+insert into Vendor values ('V002', 'Canon', '5043334283', 'New Orleans');
+insert into Vendor values ('V003', 'Indomie', '6175550167', 'Boston');
+insert into Vendor values ('V004', 'Maya Devi Design', '8105550122', 'Flint');
+insert into Vendor values ('V005', 'Whole Foods', '2252180452', 'Baton Rouge');
+insert into Vendor values ('V006', 'Jenga', '5040294758', 'New Orleans');
+insert into Vendor values ('V007', 'BoxLunch', '5165556479', 'Franklin Square');
+insert into Vendor values ('V008', 'Cowin', '2037798146', 'Bridgeport');
+insert into Vendor values ('V009', 'Fox & Fern', '8605880139', 'Hartford');
+insert into Vendor values ('V010', 'Whole Foods', '2252184452', 'Baton Rouge');
+insert into Vendor values ('V011', 'Ruolai', '7013010432', 'Bismarck');
+insert into Vendor values ('V012', 'Maono', '6038700123', 'Concord');
+insert into Vendor values ('V013', 'Barbican', '8478259106', 'Wheeling');
+insert into Vendor values ('V014', 'Watkins', '3187128428', 'Shreveport');
+insert into Vendor values ('V015', 'Phoebe Bridgers', '3234652188', 'Los Angeles');
+
+
+/* Insert into inventory table */
+insert into Inventory values ('I001', 'V001');
+insert into Inventory values ('I001', 'V002');
+insert into Inventory values ('I002', 'V001');
+insert into Inventory values ('I002', 'V020');
+insert into Inventory values ('I003', 'V004');
+insert into Inventory values ('I004', 'V023');
+insert into Inventory values ('I005', 'V005');
+insert into Inventory values ('I006', 'V004');
+insert into Inventory values ('I007', 'V004');
+insert into Inventory values ('I008', 'V013');
+insert into Inventory values ('I009', 'V005');
+insert into Inventory values ('I010', 'V005');
+insert into Inventory values ('I011', 'V010');
+insert into Inventory values ('I012', 'V006');
+insert into Inventory values ('I013', 'V018');
+insert into Inventory values ('I014', 'V014');
+insert into Inventory values ('I015', 'V004');
+insert into Inventory values ('I016', 'V002');
+insert into Inventory values ('I017', 'V005');
+insert into Inventory values ('I018', 'V017');
+insert into Inventory values ('I019', 'V008');
+insert into Inventory values ('I020', 'V002');
+insert into Inventory values ('I021', 'V021');
+insert into Inventory values ('I022', 'V009');
+insert into Inventory values ('I024', 'V007');
+insert into Inventory values ('I023', 'V019');
+insert into Inventory values ('I001', 'V024');
+insert into Inventory values ('I002', 'V025');
+insert into Inventory values ('I025', 'V003');
+insert into Inventory values ('I003', 'V022');
+insert into Inventory values ('I026', 'V012');
+insert into Inventory values ('I019', 'V015');
+insert into Inventory values ('I008', 'V016');
+insert into Inventory values ('I009', 'V011');
+
+
+/* Insert into representative table */
+insert into Rep values ('V001', 'R001', 'Annabelle', '2255679202');
+insert into Rep values ('V002', 'R002', 'Afreen', '2259897689');
+insert into Rep values ('V003', 'R003', 'Mathew', '2250896523');
+insert into Rep values ('V004', 'R004', 'Sedarius', '2250987890');
+insert into Rep values ('V005', 'R005', 'Tom', '2251237653');
+insert into Rep values ('V006', 'R006', 'Billie', '2257319283');
+insert into Rep values ('V007', 'R007', 'Lily', '2254324560');
+insert into Rep values ('V008', 'R008', 'Anastasia', '2251523482');
+insert into Rep values ('V009', 'R009', 'Guillermo', '2256318632');
+insert into Rep values ('V001', 'R010', 'Luna', '2258988147');
+insert into Rep values ('V003', 'R011', 'Jung', '2253579637');
+insert into Rep values ('V005', 'R012', 'Cameron', '2259274063');
+insert into Rep values ('V007', 'R013', 'Don', '2256667751');
+insert into Rep values ('V008', 'R014', 'Vicky', '2259762222');
+insert into Rep values ('V009', 'R015', 'Pedro', '2251432565');
+
+
+/* Insert into driver table */
+insert into Driver values ('V001', 'D001', 'Huyen', '2250254687');
+insert into Driver values ('V002', 'D002', 'Niall', '2253036144');
+insert into Driver values ('V003', 'D003', 'Ronaldo', '2256441893');
+insert into Driver values ('V004', 'D004', 'Camila', '2258901963');
+insert into Driver values ('V005', 'D005', 'DeAndre', '2252356993');
+insert into Driver values ('V006', 'D006', 'Tu', '2255040900');
+insert into Driver values ('V007', 'D007', 'Judy', '2253539468');
+insert into Driver values ('V008', 'D008', 'Cherry', '2254694029');
+insert into Driver values ('V009', 'D009', 'Veronica', '2258765698');
+insert into Driver values ('V009', 'D010', 'Yusef', '2259363461');
+
+
