@@ -1,11 +1,19 @@
-# CSC4402-DataBases
+## CSC4402-DataBases
 Final Project
 
-Group Members:
+## Group Members:
 
 Marcellina Kazigati,
 Ana Nuno,
 Adwaita Ramachandran.
+
+## Application Domain Description
+- Our project mainly focuses on the relationship between Amazon and the companies working/ selling their products on Amazon's website.
+- For example, when a product is out of stock, Amazon must notify the company through one of their representatives and request them to send more products to the warehouse. This ensure that their prodcut are no longer out of stock.
+
+## Domain Analysis
+In this database there were 5 tables implemented: item, vendor V_ID , inventory, rep, and driver.
+
 
 GoogleDoc Project Folder:
 
