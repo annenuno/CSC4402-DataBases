@@ -13,7 +13,9 @@ Adwaita Ramachandran.
 
 ## Domain Analysis
 In this database there were 5 tables implemented: item, vendor V_ID , inventory, rep, and driver.
-
+<br />
+<br />
+<br />
 
 <img align="left" alt="PNG" src="https://github.com/annenuno/CSC4402-DataBases/blob/master/Screen%20Shot%202022-01-26%20at%207.03.15%20PM.png" width="500" height="320" />
 
@@ -21,14 +23,15 @@ In this database there were 5 tables implemented: item, vendor V_ID , inventory,
 <br />
 <br />
 
-GoogleDoc Project Folder:
+
+## GoogleDoc Project Folder:
 
 https://docs.google.com/document/d/1p_YkxbOyEKROUVUeL1WKzJEX8VuD1_Xs2UKgjeH2BIE/edit?usp=sharing
 
-Final Project Report:
+## Final Project Report:
 
 https://docs.google.com/document/d/1p_YkxbOyEKROUVUeL1WKzJEX8VuD1_Xs2UKgjeH2BIE/edit?usp=sharing
 
-Final Project Presentation:
+## Final Project Presentation:
 
 https://docs.google.com/presentation/d/1oQjE1hBTDthDhTeBbsmUTgSJxndcSP7RdQ96ZCmTzwM/edit?usp=sharing
