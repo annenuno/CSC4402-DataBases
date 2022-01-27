@@ -15,6 +15,9 @@ Adwaita Ramachandran.
 In this database there were 5 tables implemented: item, vendor V_ID , inventory, rep, and driver.
 
 
+<img align="right" alt="PNG" src="https://github.com/annenuno/CSC4402-DataBases/blob/master/Screen%20Shot%202022-01-26%20at%207.03.15%20PM.png" width="500" height="320" />
+
+
 GoogleDoc Project Folder:
 
 https://docs.google.com/document/d/1p_YkxbOyEKROUVUeL1WKzJEX8VuD1_Xs2UKgjeH2BIE/edit?usp=sharing
