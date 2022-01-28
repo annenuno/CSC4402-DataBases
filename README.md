@@ -1,5 +1,5 @@
 ## CSC4402-DataBases
-Final Project
+SQL Data Bases Final Project
 
 ## Group Members:
 
